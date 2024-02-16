@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
  export class ChatComponent implements OnInit {
  
    chat = [
-    {type: "response", text:'Hallo, can I help You? !!!', hasSpace:'hasNoSpace'},
+    {type: "response", text:'Hallo, can I help You? !!! ??? ???', hasSpace:'hasNoSpace'},
    ];
  
    loading = false;
@@ -20,13 +20,12 @@ import { Component, OnInit } from '@angular/core';
    constructor(private llamaService: LlamaService)
      {
        console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
-      console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
  
        this.llamaService.test()
          .subscribe(
            (response) => {
              console.log(response.data)
-            console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+            console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!ghjghjghjgjgjghj!!!!!!!!!!!!!!!!!!!!!!')
  
            })
      }
