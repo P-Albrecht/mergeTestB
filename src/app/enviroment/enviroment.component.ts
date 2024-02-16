@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class EnviromentComponent {
 
+  constructor() {}
 
   onClickMe() {
-    console.log('...........')
+     console.log('...........')
   }
+
 }
